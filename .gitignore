@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Application specific
+logs/*
+!logs/.gitkeep
+data/*
+!data/.gitkeep
+input_folder/*
+!input_folder/.gitkeep
+output_folder/*
+!output_folder/.gitkeep
+models/
+!models/.gitkeep
+.build/
+!build/.gitkeep
+.spec/
+.windsurfrules
+
+
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+*.log.*
+
+# models
+*.pt
+*.pth
+
